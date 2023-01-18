@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-namespace UserRegisteration
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MoodAnalyserProb
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("User Registration Validating using Regular Expression!");
-            RegexSample regexSample = new RegexSample();
-            regexSample.Validating();
-
+            Console.WriteLine("Mood Analyser Problem!");
         }
     }
 }
